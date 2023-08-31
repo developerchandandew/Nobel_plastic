@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body{
+    overflow-x: hidden;
+} */
+.carousel-status{
+    display: none;
+}
+.active{
+    color: #a7cf48;
+
+}
+.active ::before{
+    content:'';
+    width:12px;
+    height: 12px;
+    position:absolute;
+    top:56px;
+    left: inherit;
+
+    border-radius: 100%;
+    color: #a7cf48;
+}
