@@ -15,15 +15,15 @@ let Footer = () => {
         <div className="bg-black text-white w-full p-1/5 flex flex-wrap lg:justify-between lg:py-6 lg:p-[5%]">
             <div className="touch w-full p-2 lg:w-1/2">
                 <img src="images/Noble-Plastic-SVG-Logo.svg" alt="Logo" className="my-3 lg:w-3/5" />
-                <p className="my-2 ml-4 md:text-lg lg:ml-0">This initiative has been supported by an Impact Investor and fashion retailer Marks & Spencer.</p>
-                <p className="my-2 ml-4 md:text-lg lg:ml-0">Fuzhio Health and Business Services Pvt. Ltd.</p>
-                <p className="my-2 ml-4 md:text-lg lg:ml-0">No. 25, RMV</p>
-                <p className="my-2 ml-4 md:text-lg lg:ml-0">2nd Stage, AECS Layout, 1st Main Road,</p>
-                <p className="my-2 ml-4 md:text-lg lg:ml-0">Ashwathnagar,</p>
-                <p className="my-2 ml-4 md:text-lg lg:ml-0">Bangalore – 560094</p>
-                <p className="my-2 ml-4 md:text-lg lg:ml-0">Phone: +91 937981 5394</p>
-                <p className="my-2 ml-4 md:text-lg lg:ml-0">For more information please email</p>
-                <p className="my-2 ml-4 md:text-lg lg:ml-0">fuzhio@catalysts.org</p>
+                <p className="my-2 ml-4 md:text-lg lg:ml-0 xl:text-2xl">This initiative has been supported by an Impact Investor and fashion retailer Marks & Spencer.</p>
+                <p className="my-2 ml-4 md:text-lg lg:ml-0 xl:text-2xl">Fuzhio Health and Business Services Pvt. Ltd.</p>
+                <p className="my-2 ml-4 md:text-lg lg:ml-0 xl:text-2xl">No. 25, RMV</p>
+                <p className="my-2 ml-4 md:text-lg lg:ml-0 xl:text-2xl">2nd Stage, AECS Layout, 1st Main Road,</p>
+                <p className="my-2 ml-4 md:text-lg lg:ml-0 xl:text-2xl">Ashwathnagar,</p>
+                <p className="my-2 ml-4 md:text-lg lg:ml-0 xl:text-2xl">Bangalore – 560094</p>
+                <p className="my-2 ml-4 md:text-lg lg:ml-0 xl:text-2xl">Phone: +91 937981 5394</p>
+                <p className="my-2 ml-4 md:text-lg lg:ml-0 xl:text-2xl">For more information please email</p>
+                <p className="my-2 ml-4 md:text-lg lg:ml-0 xl:text-2xl">fuzhio@catalysts.org</p>
 
 
             </div>

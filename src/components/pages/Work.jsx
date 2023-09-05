@@ -4,7 +4,7 @@ import Footer from "../footer";
 let Work = () => {
     return (
         <>
-            <div className="main w-full h-[100vh] bg-[url('images/impact/back.png')] bg-fixed bg-cover bg-no-repeat relative">
+            <div className="main w-full h-[100vh] bg-[url('./images/work/workbg.png')] bg-fixed bg-cover bg-no-repeat relative">
                 <Navigation />
 
                 <div className="work-desp absolute bottom-0 bg-black text-white md:top-48 md:left-12 md:bg-transparent md:w-2/5">
@@ -19,7 +19,7 @@ let Work = () => {
 
                 {/* mobile view */}
                 <div className="mb-6 border-b-6 border-[#2293cb] w-full md:hidden">
-                    <div className="bg-[url('images/work/paper-2.svg')] w-[90%] h-[20vh] bg-cover m-auto">
+                    <div className="bg-[url('./images/work/paper-2.svg')] w-[90%] h-[20vh] bg-cover m-auto">
                         <h1 className="text-center text-black pt-12 text-xl font-semibold ">Hanger Repurposing
                             & Recycling</h1>
                     </div>
@@ -28,7 +28,7 @@ let Work = () => {
                 </div>
 
                 <div className="md:hidden">
-                    <div className="bg-[url('images/work/paper-2.svg')]  w-[90%] h-[20vh] bg-cover m-auto ">
+                    <div className="bg-[url('./images/work/paper-2.svg')]  w-[90%] h-[20vh] bg-cover m-auto ">
                         <h1 className="text-center text-black pt-12 text-xl font-semibold">Film Plastic Recycling</h1>
                     </div>
                     <img src="images/work/work-2.png" alt="our-work" className="-mt-6" />
@@ -36,7 +36,7 @@ let Work = () => {
                 </div>
 
                 <div className="mt-4 pb-6 md:hidden">
-                    <div className="bg-[url('images/work/paper-2.svg')]  w-[90%] h-[20vh] bg-cover m-auto">
+                    <div className="bg-[url('./images/work/paper-2.svg')]  w-[90%] h-[20vh] bg-cover m-auto">
                         <h1 className="text-center text-black pt-12 text-xl font-semibold">Pyrolysis</h1>
                     </div>
                     <img src="images/work/work-3.png" alt="our-work" className="-mt-6" />
@@ -45,7 +45,7 @@ let Work = () => {
 
                 {/* tab and desktop view */}
                 <div className="hidden md:w-4/5 md:flex md:space-x-2 md:m-auto md:my-6 md:border-b-8 md:border-[#2293cb] md:pb-10">
-                    <img src="images/work/work-1.png" alt="our-work" className="md:w-1/2 md:z-10" />
+                    <img src="./images/work/work-1.png" alt="our-work" className="md:w-1/2 md:z-10" />
                     <div className="md:w-1/2 md:relative">
                         <div className="md:bg-[url('images/work/paper-2.svg')] md:w-full md:h-[20vh] md:bg-cover md:absolute -left-10 md:z-0">
                             <h1 className="md:text-center md:text-black md:pt-12 md:text-xl md:font-semibold xl:text-4xl xl:my-10">Hanger Repurposing
@@ -57,7 +57,7 @@ let Work = () => {
                 </div>
 
                 <div className="hidden md:w-4/5 md:flex md:space-x-2 md:m-auto md:my-6 md:border-b-8 md:border-[#a7cf48] md:pb-10">
-                    <img src="images/work/work-2.png" alt="our-work" className="md:w-1/2 md:z-10" />
+                    <img src="./images/work/work-2.png" alt="our-work" className="md:w-1/2 md:z-10" />
                     <div className="md:w-1/2 md:relative">
                         <div className="md:bg-[url('images/work/paper-2.svg')] md:w-full md:h-[20vh] md:bg-cover md:absolute md:-left-10 md:z-0">
                             <h1 className="md:text-center md:text-black md:pt-12 md:text-xl md:font-semibold xl:text-4xl xl:my-10">Film Plastic Recycling</h1>
@@ -67,7 +67,7 @@ let Work = () => {
                 </div>
 
                 <div className="hidden md:w-4/5 md:flex md:space-x-2 md:m-auto md:mt-6 md:pb-6 md:border-b-8 md:border-[#2293cb]">
-                    <img src="images/work/work-2.png" alt="our-work" className="md:w-1/2 md:z-10" />
+                    <img src="./images/work/work-2.png" alt="our-work" className="md:w-1/2 md:z-10" />
                     <div className="md:w-1/2 md:relative">
                         <div className="md:bg-[url('images/work/paper-2.svg')] md:w-full md:h-[20vh] md:bg-cover md:absolute md:-left-10 md:z-0">
                             <h1 className="md:text-center md:text-black md:pt-12 md:text-xl md:font-semibold xl:text-4xl xl:my-10">Pyrolysis</h1>

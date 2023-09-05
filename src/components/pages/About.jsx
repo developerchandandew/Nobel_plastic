@@ -7,7 +7,7 @@ let About = () => {
    
     return (
         <>
-            <div className="bg-[url('images/impact/back.png')] bg-fixed bg-cover w-full h-[100vh]">
+            <div className="bg-[url('./images/aboutbg.png')] bg-fixed bg-cover w-full h-[100vh]">
                 <Navigation />
             </div>
 

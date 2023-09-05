@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* body{
-    overflow-x: hidden;
-} */
+body{
+    font-family: 'Lato', sans-serif;
+}
 .carousel-status{
     display: none;
 }

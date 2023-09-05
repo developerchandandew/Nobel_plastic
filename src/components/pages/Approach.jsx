@@ -4,12 +4,12 @@ import Footer from "../footer";
 let Approach=()=>{
     return(
         <>
-        <div className="approach w-full h-[100vh] bg-[url('images/impact/back.png')] bg-fixed bg-cover relative">
+        <div className="approach w-full h-[100vh] bg-[url('./images/approachbg.png')] bg-fixed bg-cover relative">
             <Navigation/>
 
             <div className="absolute bottom-0 bg-black text-white text-center md:top-52 md:left-5 md:bg-transparent md:text-left md:w-2/5">
-                <h1 className="text-3xl my-2 md:text-5xl">The Noble Plastics Approach</h1>
-                <p className="px-2 text-sm md:text-base xl:text-3xl">Successful action stems from innovative approaches, and Noble Plastics is a proof of that. We work to provide practical solutions that are backed by quantifiable results.</p>
+                <h1 className="text-3xl my-2 md:text-5xl lg:ml-12">The Noble Plastics Approach</h1>
+                <p className="px-2 text-sm md:text-base xl:text-3xl lg:ml-12">Successful action stems from innovative approaches, and Noble Plastics is a proof of that. We work to provide practical solutions that are backed by quantifiable results.</p>
             </div>
         </div>
 

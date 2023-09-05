@@ -9,23 +9,23 @@ let Navigation=()=>{
             </NavLink>
             <ul className="lg:w-3/5 xl:2/5 lg:flex lg:justify-between lg:text-2xl lg:my-8 lg:relative md:hidden hidden">
                 <NavLink to='/about'>
-                <li className="hover:text-[#a7cf48] hover:before:content-[''] hover:before:absolute hover:before:top-14 hover:before:left-8 hover:before:w-3 hover:before:h-3 hover:before:bg-green-100 hover:before:rounded-full">About</li>
+                <li className="hover:text-[#a7cf48]">About</li>
                 </NavLink>
                 <NavLink to='/approach'>
-                <li className="hover:text-[#a7cf48] hover:before:content-[''] hover:before:absolute hover:before:top-14 hover:before:left-44 xl:hover:before:left-72 hover:before:w-3 hover:before:h-3 hover:before:bg-green-100 hover:before:rounded-full">Approach</li>
+                <li className="hover:text-[#a7cf48]">Approach</li>
                 </NavLink>
                 <NavLink to='/work'>
-                <li className="hover:text-[#a7cf48] hover:before:content-[''] hover:before:absolute hover:before:top-14 hover:before:right-72 xl:hover:before:right-[29rem] hover:before:w-3 hover:before:h-3 hover:before:bg-green-100 hover:before:rounded-full">Work</li>
+                <li className="hover:text-[#a7cf48]">Work</li>
                 </NavLink>
                 <NavLink to='/impact'>
-                <li className="hover:text-[#a7cf48] hover:before:content-[''] hover:before:absolute hover:before:top-14 hover:before:right-36 xl:hover:before:right-56 hover:before:w-3 hover:before:h-3 hover:before:bg-green-100 hover:before:rounded-full">Impact</li>
+                <li className="hover:text-[#a7cf48]">Impact</li>
                 </NavLink>
                 
 
                 <li className="relative group"><FaMagnifyingGlass className="mt-2 text-[#a7cf48] "/>
                     <span className="flex justify-between absolute top-0 right-0 w-[80vh] bg-white p-2 invisible group-hover:visible">
                     <FaMagnifyingGlass className="mt-2 text-[#a7cf48] w-1/5 "/>
-                    <input type="text" name="search" placeholder="Search" className="w-4/5 outline-none  text-[#a7cf48]"/>
+                    <input type="text" name="search" placeholder="Search" className="w-4/5 outline-none  text-[#a7cf48] "/>
                     </span>
                 </li>
             </ul>

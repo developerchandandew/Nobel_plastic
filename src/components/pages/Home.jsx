@@ -13,30 +13,31 @@ const Home = () => {
     return (
         <>
             <div className=" w-full h-[80vh] relative ">
-                <Navigation className='md:hidden' />
-                <div className="invisible md:visible w-full md:w-[90%] flex justify-between p-2 m-auto py-4 bg-black text-white md:bg-transparent md:absolute md:top-0 md:left-0 z-50">
+                <Navigation className='md:hidden ' />
+                <div className="hidden md:block lg:w-4/5 lg:m-auto">
+                <div className=" w-full md:w-[90%] flex justify-between p-2 m-auto py-4 bg-black text-white md:bg-transparent md:absolute md:top-0 md:left-0 z-50">
                     <NavLink to='/home'>
                         <img src="images/Noble-Plastic-SVG-Logo.svg" alt="Noble Plastics" className="w-1/2 my-4 md:z-50 lg:w-2/5" />
                     </NavLink>
                     <ul className="lg:w-3/5 xl:2/5 lg:flex lg:justify-between lg:text-2xl lg:my-8 lg:relative md:hidden hidden">
                         <NavLink to='/about'>
-                            <li className="hover:text-[#a7cf48] hover:before:content-[''] hover:before:absolute hover:before:top-14 hover:before:left-8 hover:before:w-3 hover:before:h-3 hover:before:bg-green-100 hover:before:rounded-full">About</li>
+                            <li className="hover:text-[#a7cf48] ">About</li>
                         </NavLink>
                         <NavLink to='/approach'>
-                            <li className="hover:text-[#a7cf48] hover:before:content-[''] hover:before:absolute hover:before:top-14 hover:before:left-44 xl:hover:before:left-72 hover:before:w-3 hover:before:h-3 hover:before:bg-green-100 hover:before:rounded-full">Approach</li>
+                            <li className="hover:text-[#a7cf48] ">Approach</li>
                         </NavLink>
                         <NavLink to='/work'>
-                            <li className="hover:text-[#a7cf48] hover:before:content-[''] hover:before:absolute hover:before:top-14 hover:before:right-72 xl:hover:before:right-[29rem] hover:before:w-3 hover:before:h-3 hover:before:bg-green-100 hover:before:rounded-full">Work</li>
+                            <li className="hover:text-[#a7cf48] ">Work</li>
                         </NavLink>
                         <NavLink to='/impact'>
-                            <li className="hover:text-[#a7cf48] hover:before:content-[''] hover:before:absolute hover:before:top-14 hover:before:right-36 xl:hover:before:right-56  hover:before:w-3 hover:before:h-3 hover:before:bg-green-100 hover:before:rounded-full">Impact</li>
+                            <li className="hover:text-[#a7cf48] ">Impact</li>
                         </NavLink>
 
 
                         <li className="relative group"><FaMagnifyingGlass className="mt-2 text-[#a7cf48] " />
                             <span className="flex justify-between absolute top-0 right-0 w-[80vh] bg-white p-2 invisible group-hover:visible">
                                 <FaMagnifyingGlass className="mt-2 text-[#a7cf48] w-1/5 " />
-                                <input type="text" name="search" placeholder="Search" className="w-4/5 outline-none text-black" />
+                                <input type="text" name="search" placeholder="Search" className="w-4/5 outline-none text-[#a7cf48]" />
                             </span>
                         </li>
                     </ul>
@@ -46,10 +47,11 @@ const Home = () => {
                         <FaMagnifyingGlass className="mt-2 text-[#a7cf48] md:text-2xl md:mt-8 md:z-50" />
                         <span className="flex justify-between absolute top-0 -right-1 w-[40vh] bg-white p-2 invisible group-hover:visible md:top-4">
                             <FaMagnifyingGlass className="mt-2 text-[#a7cf48] w-1/5 " />
-                            <input type="text" name="search" placeholder="Search" className="w-4/5 outline-none text-black" />
+                            <input type="text" name="search" placeholder="Search" className="w-4/5 outline-none text-[#a7cf48]" />
                         </span>
                     </span>
 
+                </div>
                 </div>
                 {/* naver */}
                 <div className="w-full h-full md:absolute md:top-0 md:left-0 md:z-0">
@@ -69,7 +71,7 @@ const Home = () => {
                 </div>
                 <div className="bg-[#2293cb] text-white p-2 absolute bottom-0 md:w-2/5 md:bottom-[30%] md:right-0 ">
                     <h1 className="py-3 font-semibold text-3xl xl:text-5xl">Noble Plastics</h1>
-                    <p className="my-3 xl:text-xl">An eco-social initiative by the Catalyst Group that champions the effective use of plastic waste, while promoting the well-being of people and the planet.</p>
+                    <p className="my-3 xl:text-2xl">An eco-social initiative by the Catalyst Group that champions the effective use of plastic waste, while promoting the well-being of people and the planet.</p>
                 </div>
             </div>
 
@@ -98,8 +100,8 @@ const Home = () => {
             {/* what makes us unique */}
             <div className="w-full bg-[#1C1C1C]">
                 <h1 className="font-bold text-4xl text-center py-10 xl:text-6xl "><span className="text-[#2293cb]">What Makes Us</span> <span className="text-[#a6ce41]">Unique</span></h1>
-                <p className="my-6 md:w-4/5 md:m-auto md:text-lg text-center text-white xl:text-2xl">The well-being of people, the planet and prosperity of all our stakeholders lie at the heart of everything we do.</p>
-                <div className="flex flex-col w-full mb-6 md:flex-row my-10 md:mb-28">
+                <p className="my-6 md:w-4/5 md:m-auto md:text-lg text-center text-white xl:text-3xl">The well-being of people, the planet and prosperity of all our stakeholders lie at the heart of everything we do.</p>
+                <div className="flex flex-col w-full mb-6 md:flex-row my-10 md:mb-28 lg:w-4/5 lg:m-auto lg:py-20">
                     <div className="w-4/5 m-auto my-3 md:w-1/4 xl:border-r-2 xl:border-white">
                         <img src="images/home/people.png" alt="people" className="" />
                     </div>
