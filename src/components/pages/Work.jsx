@@ -5,7 +5,7 @@ let Work = () => {
     return (
         <>
             <div className="main w-full h-[100vh] bg-[url('./images/work/workbg.png')] bg-fixed bg-cover bg-no-repeat relative">
-                <img src="./images/work/workbg.png" alt="" className="absolute top-0 left-0 w-full h-[100vh]"/>
+                <img src="./images/work/workbg.png" alt="" className="absolute top-0 left-0 w-full h-[100vh] z-0"/>
                 <Navigation />
 
                 <div className="work-desp absolute bottom-0 bg-black text-white md:top-48 md:left-12 md:bg-transparent md:w-2/5">
