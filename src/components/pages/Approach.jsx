@@ -5,7 +5,7 @@ let Approach=()=>{
     return(
         <>
         <div className="approach w-full h-[100vh] bg-[url('./images/approachbg.png')] bg-fixed bg-cover relative">
-        <img src="./images/approachbg.png" alt="" className="absolute top-0 left-0 w-full h-[100vh] z-1"/>
+        <img src="./images/approachbg.png" alt="" className="absolute top-0 left-0 w-full h-[100vh] -z-10"/>
               <Navigation/>
 
             <div className="absolute bottom-0 bg-black text-white text-center md:top-52 md:left-5 md:bg-transparent md:text-left md:w-2/5">
