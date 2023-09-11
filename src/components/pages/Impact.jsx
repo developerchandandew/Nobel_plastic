@@ -5,9 +5,9 @@ import CountUp from "react-countup";
 let Impact = () => {
     return (
         <>
-            <div className=" w-full h-[100vh] bg-fixed bg-no-repeat bg-cover relative">
+            <div className=" w-full h-[100vh] bg-[url('./images/back.png')] bg-fixed bg-no-repeat bg-cover relative">
+            <Navigation />
             <img src="./images/back.png" alt="" className="absolute top-0 left-0 w-full h-[100vh] z-0"/>
-                <Navigation />
 
                 {/* mobile view  */}
                 <div className="bg-gray-700 text-white absolute bottom-0 md:bg-transparent md:left-0 md:top-48 md:w-1/2 ">
